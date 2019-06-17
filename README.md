@@ -6,6 +6,7 @@ An Android Kotlin App created to select random food from a list of your favourit
 When clicking the decide button it will randomnly choose a food dish for you from the list you saved in database.
 On clicking the top right add button you can add a new dish.
 On clicking the three dots on top you can see the list of dishes you saved.
+On clicking the call button it will call the restaurant you saved for that particular dish that was randomnly selected on clicking decide button.
 
 <img width="200" src="https://github.com/devsarahgeo/FoodDecider/blob/master/images/img1.png"/>
 
