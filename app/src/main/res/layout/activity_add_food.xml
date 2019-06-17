@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addfood_bg"
+    android:padding="20dp"
+    tools:context=".AddFood"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/addCuisineTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:hint="@string/add_new_cuisine"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addFoodTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:hint="add new Dish..."
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addPriceTxt"
+        android:textColorHint="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli_bold"
+        android:hint="add Price..."
+        android:textSize="20sp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/addHotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black"
+        android:fontFamily="@font/muli_bold"
+        android:hint="add Hotel Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:textSize="20sp"
+
+        android:id="@+id/addPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black"
+        android:fontFamily="@font/muli_bold"
+        android:hint="add Phone Number"
+        android:inputType="number"
+        android:textColor="@android:color/black" />
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/addTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black"
+        android:fontFamily="@font/muli_bold"
+        android:hint="add Desc Words(eg:Spicy,Sweet,etc)..."
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/addFoodBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:fontFamily="@font/abril_fatface"
+        android:padding="10dp"
+        android:text="ADD FOOD"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+
+</LinearLayout>
