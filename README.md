@@ -1,6 +1,8 @@
 # FoodDecider
 An Android Kotlin App created to select random food from a list of your favourite food.
 
+An app which uses Android Sdks default sqlite database for storing large data.
+
 <b>1)Main Screen(Home Page):</b>
 
 When clicking the decide button it will randomnly choose a food dish for you from the list you saved in database.
